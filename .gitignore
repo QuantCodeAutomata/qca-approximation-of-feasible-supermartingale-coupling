@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+.venv
+venv/
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+.ipynb_checkpoints/
+*.ipynb
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+*.log
+*.tmp
+*.swp
+# Allow results deliverables (csv, png) committed intentionally
+# Raw exploratory data dumps (outside results/) should NOT be committed
+/data/**/*.csv
+/data/**/*.parquet
